@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&family=Roboto+Mono:wght@100&family=Ubuntu&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    box-shadow: 0px 0px 5px;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    background-color: white;
+    z-index: 5;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 30px;
+}
+
+div.logo {
+    position: absolute;
+    top: -22px;
+    left: 10px;
+    z-index: 10;
+}
+
+
+li:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+div.box1 {
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid rgba(2, 0, 0, 0.26); */
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px;
+    overflow: hidden;
+}
+
+div.overlay {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: 2vw;
+}
+
+div.img1 {
+    position: absolute;
+    top: 0px;
+    left:650px;
+}
+
+input {
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px;
+    height: 50px;
+}
+
+
+h2.headings {
+    padding: 80px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+div.courses {
+    text-align: center;
+}
+
+div.coursebox {
+
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    text-align: left;
+    overflow: hidden;
+}
+
+div.coursebox:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+div.overlay-course {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: larger;
+}
+.course-img{
+    position: absolute;
+    top: -20px;
+    left: 90px;
+}
+.course-img img{
+    width: 300px;
+}
+
+
+
+div.box-teachers {
+    position: relative;
+    text-align: center;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   border-radius: 10px;
+   
+    box-shadow: 0px 0px 5px ;
+}
+
+
+.one{
+    position: absolute;
+    left: 0px;
+}
+.two{
+    position: absolute;
+    left: 360px;
+    z-index: 2;
+}
+.three{
+    position: absolute;
+    left:650px;
+}
+.fac-h:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+span{
+    color: blue;
+}
+
+.aboutus
+{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 200px;
+}
+.aboutus img{
+    opacity: 10%;
+}
+h3.headingh3{
+    color: blue;
+}
+
+div.gallery{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+div.gall-img
+{
+    display: inline-block;
+    
+    
+}
+.gall-img img{
+    width: 30%;
+}
+.gall-img img:hover{
+transform: scale(2);
+transition: 1s;
+}
+
+
+
+div.contact{
+text-align: center;
+}
+
+iframe{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+
+/* Style the form container */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the form fields */
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  footer {
+    background-color: #f5efef;
+    color: #000000;
+    padding: 50px 0;
+  }
+  
+  .container1{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul.social-icons li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+  }
+  
+
+  
+  
